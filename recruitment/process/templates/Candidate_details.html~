@@ -1,0 +1,20 @@
+Candidate Details<br>
+<table border=''>
+<th><tr><td>Candidate name</td><td>id</td><td>age</td><td>mobile</td><td>mail</td><td>Date of apply</td><td>Vacant id</td>
+<td>Education</td><td>Experience</td></tr></th>
+{% if ss %}
+     {% for i in ss %}
+           <tr><td>{{i.Name}}</td>
+	       <td>{{i.Candidate_id}}</td>
+	       <td>{{i.Age}}</td>
+	       <td>{{i.Mobile}}</td>
+	       <td>{{i.Mail}}</td>
+    	       <td>{{i.Applied_date}}</td>
+	       <td>{{i.Vacant_id_id}}</td>
+	       <td>{{i.Education}}</td>
+ 	       <td>{{i.Experience}}</td>
+	   </tr>
+ <br>{%endfor%}
+{% else %}
+{%endif%}<table><br>
+<br><a href='/'>home</a>

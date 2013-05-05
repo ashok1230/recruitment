@@ -1,0 +1,11 @@
+Panel Members Details
+<table border='1'>
+<th><tr><td>Panel id</td><td>Emp id</td></tr></th>
+{% if s %}
+     {% for i in s %}
+           <tr><td>{{i.Panel_id}}</td>
+	       <td><a href='/showemp/{{i.Emp_id_id}}/'>{{i.Emp_id_id}}</td>
+	   </tr>
+{%endfor%}
+{% else %}
+{%endif%}<table><br><a href='/'>home</a>

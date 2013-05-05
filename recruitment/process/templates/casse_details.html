@@ -1,0 +1,15 @@
+Candidate Assesment Details<br>
+<table border=''>
+<th><tr><td>Candidate id</td><td>Flow id</td><td>Assesment comment</td><td>Actual Value</td><td>Panel id</td></tr></th>
+{% if s %}
+     {% for i in s %}
+           <tr>
+	       <td><a href='/show/{{i.Candidate_id_id}}/'>{{i.Candidate_id_id}}</td>
+	       <td>{{i.Flow_id_id}}</td>
+	       <td>{{i.Asses_comment}}</td>
+	       <td>{{i.Actual_value}}</td>
+    	       <td>{{i.Panel_id_id}}</td>
+	   </tr>
+{%endfor%}
+{% else %}
+{%endif%}<table><br><br><a href='/'>home</a>

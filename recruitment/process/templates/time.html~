@@ -1,0 +1,17 @@
+<html>
+<head>
+
+<title>Interview Details</title>
+<b>Time details </b>
+
+</head>
+<body bgcolor='cyan'>
+
+<form name='input' action='/time/' method="post">
+
+
+{%csrf_token%}{{form.as_p}}<input type="submit" value="Add Details">
+
+</form><br><a href='/'>home</a>
+</body>
+</html>

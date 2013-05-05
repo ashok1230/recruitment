@@ -1,0 +1,17 @@
+<html>
+<head>
+
+<title>Assesment details</title>
+
+
+</head>
+<body bgcolor='cyan'>
+
+<form name='input' action='/addas/' method="post">
+
+
+{%csrf_token%}{{form.as_p}}<input type="submit" value="Add Details">
+
+</form>
+</body>
+</html>

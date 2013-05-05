@@ -1,0 +1,16 @@
+<html>
+<head>
+
+<title>panel Details</title>
+
+</head>
+<body bgcolor='cyan'>
+
+<form name='input' action='/panel/' method="post">
+
+
+{%csrf_token%}{{form.as_p}}<input type="submit" value="Add Details">
+
+</form><br><a href='/'>home</a>
+</body>
+</html>

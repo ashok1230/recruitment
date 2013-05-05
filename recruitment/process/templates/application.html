@@ -1,0 +1,12 @@
+Application Details<br>
+<table border=''>
+<th><tr><td>Candidate id</td><td>Vacant id</td><td>Date of apply</td></tr></th>
+{% if ss %}
+     {% for i in ss %}
+           <tr><td><a href='/show/{{i.Candidate_id}}/'>{{i.Candidate_id}}</a></td>
+	       <td>{{i.Vacant_id_id}}</td>
+	       <td>{{i.Applied_date}}</td>
+	   </tr>
+{%endfor%}
+{% else %}
+{%endif%}<table><br><br><a href='/'>home</a>

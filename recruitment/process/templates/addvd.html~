@@ -1,0 +1,17 @@
+<html>
+<head>
+
+<title>Vacancy Details</title>
+<b>Vacancy details </b>
+
+</head>
+<body bgcolor='cyan'>
+
+<form name='input' action='/addvd/' method="post">
+
+
+{%csrf_token%}{{form.as_p}}<input type="submit" value="Add Details">
+
+</form>
+</body>
+</html>

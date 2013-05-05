@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>registration form</title>
+</head>
+<body>
+<form name='input' action='/success.html/' method='post' id='reg'>
+Applicant Name:&nbsp;<input type='Text' name='Applicant_name' value='your name'/><br>
+Applicant mail:<input type='Text' name='Applicant_mail' value=''><br>
+Applicant channel:<select name='Applicant_channel'>
+			<option value='refer'>Referrel</option>
+			<option value='advt'>Advertisement</option>
+			<option value='web'>Company Website</option>
+		  </select><br>
+Date of Birth:<input type='date' name=Date_of_birth' value=''/><br>
+Mobile number:<input type='Number' name='Mobile_number' value=''/><br>
+Year of gaps:<input type='Number' name='Yera_gaps' value='' /><br>
+SSC percentage:<input type='Float' name='SSC_percentage' value=''/><br>
+12 OR Equivalent percentage:<input type='Float' name='Inter_equi_percentage' value=''/><br>
+Graduation percentage:<input type='Float' name='Graduation_percentage' value=''/><br>
+Year of passed out:<input type='text' name='Year_passedout' value=''/><br>
+<br>
+<input type='submit' value="Submit"></form>
+</body>
+</html>

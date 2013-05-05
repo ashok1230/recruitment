@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+{{s.Name}} Details<br>
+<table border='1'>
+<tr><td>Candidate name</td><td>{{s.Name}}</td></tr>
+<tr><td>Candidate id</td><td>{{s.Candidate_id}}</td></tr>
+<tr><td>Mail</td><td>{{s.Mail}}</td></tr>
+<tr><td>Age</td><td>{{s.Age}}</td></tr>
+<tr><td>Mobile</td><td>{{s.Mobile}}</td></tr>
+<tr><td>Applied Date</td><td>{{s.Applied_date}}</td</tr>
+<tr><td>Vacant Id</td><td>{{s.Vacant_id_id}}</td></tr>
+<tr><td>Education</td><td>{{s.Education}}</td></tr>
+<tr><td>Experience</td><td>{{s.Experience}}</td></tr>
+</table>
+
+</body>
+</html>
+

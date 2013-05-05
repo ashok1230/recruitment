@@ -1,0 +1,14 @@
+Flow Details
+<table border='1'>
+<th><tr><td>Flow id</td><td>Description</td><td>Active</td></tr></th>
+{% if s %}
+     {% for i in s %}
+           <tr><td>{{i.Flow_id}}</td>
+	       <td>{{i.Description}}</td>
+	       <td>{{i.Active}}</td>
+	       <td>{{i.Role}}</td>
+	   </tr>
+{%endfor%}
+{% else %}
+{%endif%}<table><br><a href='/'>home</a>
+

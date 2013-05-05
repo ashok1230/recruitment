@@ -1,0 +1,15 @@
+Panel Details
+<table border='1'>
+<th><tr><td>Panel id</td><td>vacancy id</td><td>start date</td><td>End date</td><td>Flow id</td></tr></th>
+{% if s %}
+     {% for i in s %}
+           <tr><td>{{i.Panel_id}}</td>
+	       <td>{{i.Vacancy_id_id}}</td>
+	       <td>{{i.Start_date}}</td>
+  	       <td>{{i.End_date}}</td>
+	       <td>{{i.Flow_id_id}}</td>
+	   </tr>
+ <br>{%endfor%}
+{% else %}
+{%endif%}<table><br><a href='/'>home</a>
+

@@ -1,0 +1,32 @@
+<html>
+<head><title>Recruitment</title>
+<style>
+p{
+color:green;
+}
+</style></head>
+<body>
+<div align='center'><p>Recruitment Process</p></div>
+<a href='/emp_details/'>Employee details</a><br>
+<a href='/addvd/'>Add Vacancy Details</a><br>
+<a href='/Vacancy_details/'>See vacancy Details</a><br>
+<a href='/add/'>Add candiadte</a><br>
+<a href='/Candidate_details/'>Candidate Details</a><br>
+<a href='/application/'>Application details</a><br>
+<a href='/flow/'>flow form</a><br>
+<!--<a href='/flow_step/'>Flow Step Details</a><br>-->
+<a href='/flow_details/'>Flow details</a><br>
+<a href='/panel/'>Add Panel</a><br>
+<a href='/panel_details/'>Panel details</a><br>
+<a href='/panelmember/'>Panel members</a><br>
+<a href='/recruitment/'>recruitment form</a><br>
+<a href='/recruitment_details/'>Recruitment Details</a><br>
+<a href='/addas/'>Add Assesment form</a><br>
+<a href='/asses_details/'>Assesment Details</a><br>
+<a href='/cand_asses/'>Candidate Assesment form</a><br>
+<a href='/casse_details/'>Candidate assesment Details</a><br>
+<a href='/assestemplate/'>Assesment template form</a><br>
+<a href='/assesment_details/'>Assesment Details</a><br>
+<a href='/result/'>Result</a>
+</body>
+</html>

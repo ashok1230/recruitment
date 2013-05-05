@@ -1,0 +1,18 @@
+Employer Details
+<table border='1'>
+<th><tr><td>Employer name</td><td>Employer id</td><td>Department</td><td>Role</td><td>Date of joining</td><td>Salary</td></tr></th>
+{% if s %}
+     {% for i in s %}
+           <tr><td>{{i.Emp_name}}</td>
+	       <td>{{i.Emp_id}}</td>
+	       <td>{{i.Department}}</td>
+  	       <td>{{i.Role}}</td>
+	       <td>{{i.Date_join}}</td>
+	       <td>{{i.Salary}}</td>
+	   </tr>
+{%endfor%}
+{% else %}
+{%endif%}<table>
+
+<br><a href='/'>home</a>
+

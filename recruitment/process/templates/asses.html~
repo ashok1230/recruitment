@@ -1,0 +1,13 @@
+Assessment Details<br>
+<table border=''>
+<th><tr><td>Flow id</td><td>Question</td><td>Answer</td></tr></th>
+{% if s %}
+     {% for i in s %}
+           <tr><td>{{i.Flow_id_id}}</td>
+	       <td>{{i.Question}}</td>
+	       <td>{{i.Answer}}</td>
+	   </tr>
+ <br>{%endfor%}
+{% else %}
+{%endif%}<table><br><br><a href='/'>home</a>
+

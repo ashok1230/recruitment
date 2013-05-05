@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>success</title>
+<style>
+p{
+color:blue;
+}
+</style>
+<body>
+<h1><p>You have succesfully registered.</p></h1><br>
+<h3>If we think you are suitable to our requirement then we will inform you.</h3>
+</body></html>

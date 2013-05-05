@@ -1,0 +1,14 @@
+Vacancy Details
+<table border='1'>
+<th><tr><td>Vacancy id</td><td>vacancy role</td><td>no of positions</td></tr></th>
+{% if s %}
+     {% for i in s %}
+           <tr><td>{{i.Vacancy_id}}</td>
+	       <td>{{i.Role}}</td>
+	       <td>{{i.No_positions}}</td>
+	   </tr>
+{%endfor%}
+{% else %}
+{%endif%}<table>
+<br><a href='/'>home</a>
+

@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>success</title>
+<style>
+p{
+color:blue;
+}
+</style>
+<body>
+<h1><p>Data successfully added in database.</p></h1>
+<a href='/'>home</a><br>
+</body></html>
