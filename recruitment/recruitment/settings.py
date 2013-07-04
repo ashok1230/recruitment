@@ -293,4 +293,31 @@ SESSION_COOKIE_NAME = 'emo2'
 OAUTH_VALIDATION_API = "http://192.168.0.50/oauth2/api/oauth/validation/?scope=adspace&token="
 
 
+'''
+Created on Feb 23, 2013
 
+@author: Dharmendra Kumar Verma
+'''
+
+
+from pymongo import Connection
+
+
+def get_connect(host=None, port=None):
+    connection = Connection(host, port)
+    return connection 
+        
+def get_db(database, host=None, port=None):
+    connect = get_connect(host, port)
+    return connect[database]
+
+
+def get_db_hook(database=None, collection=None):
+    host=database['HOST']
+    port=database['PORT']
+    username=database['USER']
+    password=database['PASSWORD']
+    database = database['NAME']
+    database = get_db(database, host, port)
+    database.authenticate(username, password)
+    return database[collection]
